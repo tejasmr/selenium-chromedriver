@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='selenium-chromedriver',  
-    version='1.0',
+    version='1.1',
     author="Tejas M R",
     author_email="totejasmr@gmail.com",
     description="Install Stable version Chromedriver for Selenium on Windows, MacOS, M1 MacOS and Linux",

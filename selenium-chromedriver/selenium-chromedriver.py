@@ -33,11 +33,11 @@ FILE_NAME = FILE.split(".")[0]
 CURR_DIR = os.getcwd()
 
 LINUX_OR_MAC_CMD = f"""
-sudo rm -rf {FILE} {FILE_NAME} /usr/bin/chromedriver 
+sudo rm -rf chromedriver.zip chromedriver /usr/bin/chromedriver 
 curl {LINK} --output chromedriver.zip
-unzip {FILE}
-sudo mv {FILE}/chromedriver /usr/bin/chromedriver
-rm -rf {FILE} {FILE_NAME}
+unzip chromedriver.zip
+sudo mv chromedriver /usr/bin/chromedriver
+rm -rf chromedriver.zip chromedriver
 """
 
 WINDOWS_CMD = f"""
