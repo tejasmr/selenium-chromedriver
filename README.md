@@ -8,5 +8,5 @@ Install Stable version Chromedriver for Selenium on Windows, MacOS, M1 MacOS and
 
 ```sh
 pip3 install selenium-chromedriver
-python3 -m selenium-chromedriver
+python3 -m selenium-chromedriver.selenium-chromedriver
 ```
