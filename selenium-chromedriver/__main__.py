@@ -4,7 +4,7 @@ from platform import system, processor
 import sys
 import ctypes
 
-STABLE_VERSION = "101.0.4951.41"
+STABLE_VERSION = "106.0.5249.61"
 
 OS = system().lower()
 PROCESSOR = processor().lower()
